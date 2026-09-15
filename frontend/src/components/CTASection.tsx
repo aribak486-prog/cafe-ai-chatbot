@@ -1,0 +1,1 @@
+export function CTASection({onChat}:{onChat:()=>void}) {return <section className="cta" id="menu"><p>Ready when you are</p><h2>Ask your next cafe question.</h2><button className="button light" onClick={onChat}>Chat With CafeAI</button></section>}

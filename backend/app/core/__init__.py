@@ -1,0 +1,1 @@
+"""Cafe configuration and knowledge."""

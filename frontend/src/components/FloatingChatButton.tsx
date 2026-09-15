@@ -1,0 +1,1 @@
+import { MessageCircle } from 'lucide-react'; export function FloatingChatButton({onClick}:{onClick:()=>void}){return <button className="floating" onClick={onClick} aria-label="Chat with CafeAI" data-tooltip="Chat with CafeAI"><MessageCircle size={24}/><span>✦</span></button>}

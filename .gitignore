@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+env/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.pyre/
+
+# FastAPI / app runtime
+*.log
+*.sqlite3
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# Build / generated output
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local secrets
+secrets.json
+*.pem
+
+# Temporary files
+*.tmp
+*.temp

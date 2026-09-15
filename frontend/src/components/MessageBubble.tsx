@@ -1,0 +1,1 @@
+import type { Message } from '../types/chat'; export function MessageBubble({message}:{message:Message}){return <div className={`message ${message.role}`}><div>{message.content.split('\n').map((line,i)=><p key={i}>{line}</p>)}</div></div>}
